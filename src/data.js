@@ -2967,3 +2967,7 @@ let movies = [
       "rate": 8
     }
   ]
+
+  let getAllDirectors = movies.map(movie => movie.director)
+  
+    console.log(getAllDirectors);
